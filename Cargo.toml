@@ -1,0 +1,10 @@
+[package]
+name = "intermediate"
+version = "0.1.0"
+authors = ["Nikhil Benesch <nikhil.benesch@gmail.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+# NOTICE: no ".git" suffix here.
+base = { git = "https://github.com/benesch/cargo-7282-base" }
